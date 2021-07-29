@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_indiashelters",
+  "info": {
+    "name": "why_indiashelter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_intro_text": {
+      "type": "string"
+    },
+    "icon_with_titles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.icon-with-titles"
+    }
+  }
+}

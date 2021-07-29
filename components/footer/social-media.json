@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_social_medias",
+  "info": {
+    "name": "social_media",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "icon_fontawesome_code": {
+      "type": "string"
+    },
+    "platform_name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

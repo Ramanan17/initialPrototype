@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "counters",
+  "info": {
+    "name": "Counters",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "counter_text": {
+      "type": "string"
+    },
+    "counter_number": {
+      "type": "string"
+    }
+  }
+}

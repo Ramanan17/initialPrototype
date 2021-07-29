@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "name": "header",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_email": {
+      "type": "email"
+    },
+    "company_contact_number": {
+      "type": "string"
+    }
+  }
+}

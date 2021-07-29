@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "branch_networks",
+  "info": {
+    "name": "branch_network"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "num_states": {
+      "type": "string"
+    },
+    "num_branches": {
+      "type": "string"
+    },
+    "num_cities": {
+      "type": "string"
+    }
+  }
+}

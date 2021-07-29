@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/why-indiashelter",
+      "handler": "why-indiashelter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/why-indiashelter",
+      "handler": "why-indiashelter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/why-indiashelter",
+      "handler": "why-indiashelter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

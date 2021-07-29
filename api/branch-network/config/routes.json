@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/branch-network",
+      "handler": "branch-network.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/branch-network",
+      "handler": "branch-network.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/branch-network",
+      "handler": "branch-network.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

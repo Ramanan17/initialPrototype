@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "banner_sliders",
+  "info": {
+    "name": "banner_slider",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    }
+  }
+}

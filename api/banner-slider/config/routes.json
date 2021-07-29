@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/banner-slider",
+      "handler": "banner-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/banner-slider",
+      "handler": "banner-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/banner-slider",
+      "handler": "banner-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
