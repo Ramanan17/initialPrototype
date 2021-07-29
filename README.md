@@ -1,3 +1,3 @@
-# Strapi application
+# IndiaShelter Backend Application
 
-A quick description of your strapi application
+Sample Backend CMS for IndiaShelter
